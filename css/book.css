@@ -1,0 +1,40 @@
+.grid {
+	grid-gap: 1em;
+	margin: 0 0 2em 0;
+}
+.grid div {
+	background-color:rgba(0,0,0,0.1);
+}
+
+.nice-image {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.book {
+	margin-top: 2em;
+}
+
+.book h2 {
+	margin-left: 1em;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 900;
+	font-size: 2em;
+}
+
+.book-nav {
+	text-align: center;
+}
+
+.book-nav img {
+	width: 25%;
+}
+
+.book-nav a {
+	background-color: transparent;
+}
+
+.book-credits {
+	margin-left: 1em;
+}
