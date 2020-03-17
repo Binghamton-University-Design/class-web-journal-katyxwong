@@ -7,39 +7,11 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/grid-utils.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/book.css">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:300,700,700i&display=fallback" rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="js/main.js"></script>
-
-		<style>
-			.grid {
-				grid-gap: 1em;
-				margin: 0 0 2em 0;
-
-			}
-			.grid div {
-				background-color:rgba(0,0,0,0.1);
-			}
-			.nice-image { 
-				width: 100%
-				height:auto;
-				display: block;
-			 }
-
-			 .book { 
-			 	margin-top: 2em;
-			  }
-			  .book h2{ 
-			  font-family: 'Poppins', sans-serif;
-
-			  .book-nav {
-			  	text-align:center;
-			  }
-
-
- 			}
-
-		</style>
 
 	</head>
 
@@ -51,37 +23,42 @@
 
 		<div class="wrapper">
 
-			<h1>Grid System</h1>
-
 			<div class="grid book">
-				
+
 				<div class="width-12-12-m width-12-12">
-					<h2> Riddle Me This </h2>  
+					<h2>Riddle Me This</h2>
 				</div>
-				
+
 				<div class="width-2-12-m width-2-12">
 					
-					<div class="book-nav"><</div> 
-				
+					<div class="flex-content">
+						<div class="book-nav vertically-centered">
+							<a href="book-14.html"><img src="images/ArrowLeft.svg" /></a>
+						</div>
+					</div>
+
 				</div>
 
 				<div class="width-8-12-m width-8-12">
-					<img class="nice-image" src="images/MaryPoppinsSketch.jpg" title="RiddleMeThis" />
+					<img class="nice-image" src="images/PAGE15.png" title="Riddle Me This" />
 				</div>
 
 				<div class="width-2-12-m width-2-12">
-					>
+					
+					<div class="flex-content">
+						<div class="book-nav vertically-centered">
+							<a href="book-16.html"><img src="images/ArrowRight.svg" /></a>
+						</div>
+					</div>
+
 				</div>
+
 
 				<div class="width-12-12-m width-12-12">
-					Riddle Book Credits
+					<p class="book-credits">Riddle Me This | ©2020 ARTS 412</p>
 				</div>
 
 
-
-				
-				
-				</div>
 			</div>
 		</div>
 
