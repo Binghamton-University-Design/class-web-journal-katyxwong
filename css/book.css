@@ -1,9 +1,15 @@
-.grid {
+.wrapper {
+   
+    max-width: 600px;
+ 
+ .grid {
+	background-color: rgba(#d6d6d6);
 	grid-gap: 1em;
 	margin: 0 0 2em 0;
-}
+	
+
 .grid div {
-	background-color:rgba(0,0,0,0.1);
+	/*background-color:rgba(0,0,0,0.1);*/
 }
 
 .nice-image {
@@ -38,3 +44,6 @@
 .book-credits {
 	margin-left: 1em;
 }
+
+}
+
