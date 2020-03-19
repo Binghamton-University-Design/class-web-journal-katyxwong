@@ -1,11 +1,12 @@
 .wrapper {
-   
     max-width: 600px;
- 
+}
+
  .grid {
-	background-color: rgba(#d6d6d6);
+	background-color: #d6d6d6;
 	grid-gap: 1em;
 	margin: 0 0 2em 0;
+}
 	
 
 .grid div {
@@ -45,5 +46,8 @@
 	margin-left: 1em;
 }
 
+.width-12-12 {
+	background-color: #000;
+	color: #d6d6d6;
 }
 
