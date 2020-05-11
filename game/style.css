@@ -38,26 +38,12 @@ body {
 }
 
 
-#StartButton {
-	position: relative;
- 	align-items: center;
-
-}
 
 
-
-.left-button {
-  position: absolute;
-  padding: 20px;
-  background-color: pink;
-  left: 30px;
-  top: 30px;
-}
-
-.right-buton {
+.left-buton {
 	position: absolute
 	padding: 20px
-	background-color: pink;
+	background-color: black;
 	left: 30px
 	top: 30px;
 }
