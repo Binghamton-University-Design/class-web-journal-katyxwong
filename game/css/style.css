@@ -33,41 +33,30 @@ body {
   background-repeat: no-repeat;
   width: 960px;
   height: 600px;
-  padding: 2em;
   margin: 0 2em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.left-button {
+.StartButton {
   position: absolute;
-  padding: 20px;
-  background-color: pink;
-  left: 30px;
-  top: 30px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.Left {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+
+.Right {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.Left img, .Right img {
+  width: 100px;
+  height: 50px;
 }
